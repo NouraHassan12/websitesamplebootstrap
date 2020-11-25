@@ -1,0 +1,109 @@
+
+*{
+	margin: 0PX;padding: 0PX
+}
+.row{max-width: 1140px;
+	margin: 0px auto}
+
+body{font-family: tahoma;}
+
+.hero{position: absolute;width: 1140px;top: 50%;left: 50%;
+	transform: translate(-50%,-50%);}
+
+header{background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(1480899711051.jpg);
+	height: 100vh;background-position: center
+		;background-size: cover;background-attachment: fixed}
+
+h1{color:white}
+
+.main-nav{list-style: none;float: right;
+	margin-top: 40px;margin-left: 695px}
+
+.main-nav li{display: inline-block;
+	margin-left: 20px}
+
+.main-nav a{color: white;text-decoration: none;
+	font-size: 90%}
+
+.main-nav a:hover{color: #E67E22;border-bottom: 2px solid #e67e22;
+	transition: alt 0.5s ease-in;padding: 20px}
+
+.log img{height: 100px;float: left;
+	margin-top: 30px}
+
+.btn{border: 1px solid #e67e22;padding: 10px 30px;
+	color: #E67E22;text-decoration: none;
+	border-radius: 12px;margin-right: 15px}
+
+.btn-half{background-color: #E67E22;
+	color: white}
+
+.btn-full:hover{background-color: #E67E22;color: white;
+	transition: alt 0.5s ease-in}
+
+.button-awsome{margin-top: 50px}
+
+.copy{width: 70%;margin-left: 15%}
+
+h3:after{width: 100px;height: 2px;background-color: #E67E22;
+	display: block;content: " ";margin: 0 auto;margin-top: 30px}
+
+.feature h3{margin-top: 50px;margin-bottom: 20px}
+
+.arranging{text-align: justify}
+
+.feature i{font-size: 50px;color: #E67E22;margin-left: 35%}
+
+.feature h4{margin-left: 40px}
+
+.meal-showcase{list-style: none;width: 100%}
+
+.meal-showcase li{display: block;width: 25%;float: left}
+
+.meal-photo{width: 100%;margin: 0px;overflow: hidden}
+
+.meal-photo img{width: 100%;height: auto;
+	transform: scale(1.15);transition: all 0.5s;}
+
+.meal-photo img:hover{transform: scale(1.05)}
+
+.meal{margin-top: 60px}
+
+.pic img{width: 40%;margin-left: 50%;margin-top: 50px}
+
+.works-steps{margin-top: 50px}
+
+.works-steps div{border: 1px solid #e67e22;
+	display: inline-block;border-radius: 50%;width: 50px;
+	height: 50px;text-align: center;line-height: 50px}
+
+.works-steps img{height: 40px;margin-top: 20px;
+	margin-right: 20px}
+
+.clearfix{zoom:1}
+
+.clearfix:after{visibility: hidden;
+	content: ".";height: 0;display: block;clear: both}
+
+.mobile{margin-top: 60px}
+
+.cities{margin-top: 100px;}
+
+.cities img{width: 100%;margin-top: 50px}
+
+.test{margin-top: 80px;background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(Chicken-Curry-_-Food-Photography.jpg);
+	padding-top: 80px;padding-bottom: 80px;background-size: cover;
+	background-position: center;
+	color: white;background-attachment: fixed}
+
+.test cite img{width: 50px;height: 50px;
+	border-radius: 50%;margin-right: 10PX}
+
+.test p{color: white;
+	line-height: 25px;margin-top: 40px}
+
+.btn-block{background-color: #E67E22;color: #FFFFFF;
+	border-radius: 40px;margin-top: 20px}
+
+.gap{margin-top: 40px}
+.form{margin-top: 40px}
